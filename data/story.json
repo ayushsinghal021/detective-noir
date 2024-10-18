@@ -1,0 +1,24 @@
+{
+  "locations": {
+    "crime_scene": {
+      "description": "You are at the crime scene, where the heirloom went missing. There are clues scattered around.",
+      "clues": ["broken vase", "footprint", "note"],
+      "next": ["suspect_house", "alley"]
+    },
+    "suspect_house": {
+      "description": "You are at the suspect's house. They seem nervous.",
+      "clues": ["hidden stash", "mysterious letter"],
+      "next": ["crime_scene", "alley"]
+    },
+    "alley": {
+      "description": "You are in a dark alley. Something feels off here.",
+      "clues": ["strange sound", "shadowy figure"],
+      "next": ["crime_scene", "suspect_house"]
+    }
+  },
+  "endings": {
+    "correct_accusation": "You have successfully accused the right suspect and recovered the heirloom!",
+    "wrong_accusation": "You accused the wrong person, and the heirloom is still missing.",
+    "missed_clues": "You failed to gather enough evidence, and the case remains unsolved."
+  }
+}

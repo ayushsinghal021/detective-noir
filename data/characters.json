@@ -1,0 +1,28 @@
+{
+  "suspects": {
+    "suspect_1": {
+      "name": "Mr. Smith",
+      "motive": "Desires the heirloom for personal gain.",
+      "dialogues": {
+        "greeting": "I didn’t take anything, I swear!",
+        "alibi": "I was at the café during the robbery."
+      }
+    },
+    "suspect_2": {
+      "name": "Ms. Johnson",
+      "motive": "Hates the family and wants revenge.",
+      "dialogues": {
+        "greeting": "Why are you asking me? I’m innocent!",
+        "alibi": "I was home watching TV."
+      }
+    },
+    "suspect_3": {
+      "name": "Detective Brown",
+      "motive": "Trying to solve the case, but is hiding something.",
+      "dialogues": {
+        "greeting": "I’m just here to help, nothing more.",
+        "alibi": "I was working on another case nearby."
+      }
+    }
+  }
+}
